@@ -107,7 +107,7 @@ getBitmapPixels(JNIEnv *env, jclass clazz, jobject bitmap) {
 本文描述的问题仅出现在Android 10版本中，出现问题是还以为是Android 10版本调整了部分API的问题，在一步步调试与排查后发现了问题在拷贝像素数组上。随后，在经过对比Android 9源码发现Android 10在这部分上确实进行了一部分修改，但由于对于skia库并没有深入研究，所以不对实际问题进行更深入的分析。  
 
 文中相关解决方案在公司项目测试后没有再出现该问题，如果有更多解决方案或文中有错误欢迎指出与讨论。  
-<b> 联系我 <yuhanglee1996@gmailc.com> </b>
+<b> 联系我 <yuhanglee1996@gmail.com> </b>
 
 ## 参考文章
 [Android Bitmap像素排列与JNI操作](https://segmentfault.com/a/1190000023731917)
